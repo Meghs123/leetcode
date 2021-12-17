@@ -11,17 +11,17 @@ public:
         {
             mid=(low+high)/2;
             if(nums[mid]==target)
-            {
+            
                 return mid;
-            }
+            
             else if(nums[mid]<target)
-            {
-                return low=mid+1;
-            }
+            
+                 low=mid+1;
+            
             else
-            {
-                return high=mid-1;
-            }
+            
+                 high=mid-1;
+            
         }
        return low; 
     }

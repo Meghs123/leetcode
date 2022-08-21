@@ -1,0 +1,13 @@
+class Solution:
+    def removeConsecutiveCharacter(self, S):
+        li = [s[0]]
+        for i in s[1:]:
+            if i==li[-1]:
+                pass
+            else:
+                li.append(i)
+        return "".join(li)
+        
+        
+       
+Time complexity: O(n)
